@@ -16,10 +16,6 @@ const barClasses = [
   styles.barThree,
 ];
 
-/*const labels = [
-  { text: "Con KuryData", className: styles.labelPrimary },
-  { text: "Por Default", className: styles.labelSecondary },
-];*/
 ---
 
 <section class={styles.section}>
@@ -68,36 +64,3 @@ const barClasses = [
   </div>
 </section>
 
-
-
-  {/*
-    <!-- GRÁFICA-->
-    <div class={styles.valueGraficaContainer}>
-      <div class={styles.escalaBarras}>
-
-        <!-- ESCALA -->
-        {escala.map((valor) => (
-          <div class={styles.itemsBarras}>
-            <p class={styles.pocentaje}>{valor}</p>
-            <div class={styles.numeroItem}></div>
-          </div>
-        ))}
-
-        <!-- BARRAS -->
-        <div class={styles.graficoBarras}>
-          {barras.map((barra) => (
-            <div class={`${styles.graficoItemsBarra} ${barra}`}></div>
-          ))}
-        </div>
-      </div>
-
-      <!-- ETIQUETAS -->
-      <div class={styles.etiquetaBarras}>
-        {etiquetas.map((etiqueta) => (
-          <p class={`${styles.etiquetaParrafo} ${etiqueta.clase}`}>
-            {etiqueta.texto}
-          </p>
-        ))}
-      </div>
-    </div> 
-  */}

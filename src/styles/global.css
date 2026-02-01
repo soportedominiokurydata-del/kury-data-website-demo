@@ -8,6 +8,7 @@
   /* Primary - Blue */
   --color-primary-400: #60a5fa;
   --color-primary-500: #3b82f6;
+  --color-primary-550: #0042FF;
   --color-primary-600: #2563eb;
   --color-primary-700: #1d4ed8;
 
@@ -57,7 +58,7 @@
   /* -------- Layout -------- */
   --max-width: 105rem;
   --header-height: 4rem;
-  --border-radius: 0.5rem;
+  --border-radius: 1rem;
 
   /* -------- Transitions -------- */
   --transition-fast: 150ms ease;
